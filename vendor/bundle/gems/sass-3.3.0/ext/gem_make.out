@@ -1,0 +1,6 @@
+/Users/rhea/.rbenv/versions/2.0.0-p0/bin/ruby mkrf_conf.rb 
+/Users/rhea/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency_installer.rb:195:in `gather_dependencies': Unable to resolve dependencies: listen requires celluloid (>= 0.15.2), celluloid-io (>= 0.15.0) (Gem::DependencyError)
+	from /Users/rhea/.rbenv/versions/2.0.0-p0/lib/ruby/2.0.0/rubygems/dependency_installer.rb:315:in `install'
+	from mkrf_conf.rb:18:in `<main>'
+Ensuring you have the right version of listen installed.
+Installing listen >= 1.1.0, < 3.0.0
