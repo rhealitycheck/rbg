@@ -10,8 +10,8 @@ class ProspectsController < ApplicationController
 			redirect_to root_path
 			flash[:message] = "Your inquiry has been submitted"
 		else
-			render :new
 			flash[:error] = "Form submission could not be submitted"
+			render :new
 		end
 	end
 
